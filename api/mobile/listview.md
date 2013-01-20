@@ -162,7 +162,7 @@ repaints the listview (works only in databound mode).
 #### example
 
     // get a reference to the mobile listview widget
-    var listview = $("#listview").data("kendomobilelistview");
+    var listview = $("#listview").data("kendoMobileListView");
     // refreshes the listview
     listview.refresh();
 
@@ -177,7 +177,7 @@ Stops the 'endless scroll' of the ListView.
 #### example
 
     // get a reference to the mobile listview widget
-    var listview = $("#listview").data("kendomobilelistview");
+    var listview = $("#listview").data("kendoMobileListView");
     // stop endless scroll
     listview.stopEndlessScrolling();
 
@@ -188,7 +188,7 @@ Stops the 'load more' functionality of the ListView.
 #### example
 
     // get a reference to the mobile listview widget
-    var listview = $("#listview").data("kendomobilelistview");
+    var listview = $("#listview").data("kendoMobileListView");
     // stop endless scroll
     listview.stopLoadMore();
 
